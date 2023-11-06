@@ -1,2 +1,2 @@
 # OS
-written operating system
+written operating system in C and C++ languages
