@@ -1,2 +1,4 @@
 # OS
-written operating system in C and ASM languages
+## by Shaunik Musukula, Elliot Barringer, Aayush Sharma
+
+Written operating system (in progress) in C, C++, and ASM
