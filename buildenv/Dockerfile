@@ -1,9 +1,4 @@
 FROM ubuntu:latest
-RUN apt-get update
-RUN apt-get upgrade -y
-RUN apt-get install -y nasm
-RUN apt-get install -y xorriso
-RUN apt-get install -y grub-pc-bin
-RUN apt-get install -y grub-common
-VOLUME /root/env
-WORKDIR /root/env
+RUN apt-get update && apt-get install -y nasm xorriso grub-pc-bin make
+COPY . /app
+WORKDIR /app
