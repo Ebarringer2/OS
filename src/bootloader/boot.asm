@@ -223,7 +223,7 @@ disk_reset:
     ret
 
 
-msg_hello:              db 'Hello world!', ENDL, 0
+msg_hello:              db 'Hello world! Oregon Trail', ENDL, 0
 msg_read_failed:        db 'Read from disk failed!', ENDL, 0
 
 times 510-($-$$) db 0
