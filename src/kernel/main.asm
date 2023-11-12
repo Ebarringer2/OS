@@ -1,4 +1,4 @@
-org 0x7C00
+org 0x0
 bits 16
 
 
@@ -60,7 +60,3 @@ main:
 
 
 msg_hello: db 'Hello world! Oregon Trail', ENDL, 0
-
-
-times 510-($-$$) db 0
-dw 0AA55h
