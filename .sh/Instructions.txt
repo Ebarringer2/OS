@@ -1,0 +1,7 @@
+Open Ubuntu
+
+Navigate to the Directory where the OS is stored
+
+In the ubuntu terminal, enter './.sh/<name of file u want to run>'
+
+for instance: ./.sh/run.sh will open the project in QEMU
